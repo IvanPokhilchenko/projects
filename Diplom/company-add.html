@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <!-- Styles -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:100,300,400,500,600,800%7COpen+Sans:300,400,500,600,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+      
+    <title>Work - Додати компанію</title>
+
+
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/images/works.png">
+    <link rel="icon" href="assets/images/works.png">
+  </head>
+
+  <body class="nav-on-header">
+
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <div class="container">
+
+        <!-- Logo -->
+        <div class="pull-left">
+          <a class="navbar-toggle" href="#" data-toggle="offcanvas"><i class="ti-menu"></i></a>
+
+          <div class="logo-wrapper">
+            <a class="logo" href="index-1.html"><img src="assets/images/works.png" alt="logo"></a>
+            <a class="logo-alt" href="index-1.html"><img src="assets/images/works.png" alt="logo-alt"></a>
+          </div>
+
+        </div>
+        <!-- END Logo -->
+
+        <!-- User account -->
+        <div class="pull-right">
+
+          <div class="dropdown user-account">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+              <img src="assets/images/logo-envato.png" alt="avatar">
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-right">
+              <li><a href="user-login.html">Увійти</a></li>
+              <li><a href="user-register.html">Зареєструватися</a></li>
+              <li><a href="user-forget-pass.html">Забули пароль</a></li>
+              <li><a href="#">Вийти</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- END User account -->
+
+        <!-- Navigation menu -->
+        <ul class="nav-menu">
+          <li>
+            <a href="index-1.html">Додому</a>
+            <ul>
+              <li><a href="index-1.html">Версія 1</a></li>
+              <li><a href="index-2.html">Версія 2</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Позиція</a>
+            <ul>
+              <li><a href="job-list-1.html">Перегляд вакансій - 1</a></li>
+              <li><a href="job-list-2.html">Перегляд вакансій - 2</a></li>
+              <li><a href="job-list-3.html">Перегляд вакансій - 3</a></li>
+              <li><a href="job-detail.html">Деталі роботи</a></li>
+              <li><a href="job-add.html">Опублікувати роботу</a></li>
+              <li><a href="job-manage.html">Управління робочими місцями</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Резюме</a>
+            <ul>
+              <li><a href="resume-list.html">Переглянути резюме</a></li>
+              <li><a href="resume-detail.html">Деталі резюме</a></li>
+              <li><a href="resume-add.html">Створити резюме</a></li>
+              <li><a href="resume-manage.html">Керувати резюме</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="active" href="#">Компанія</a>
+            <ul>
+              <li><a href="company-list.html">Переглянути компанії</a></li>
+              <li><a href="company-detail.html">Детальна інформація про компанію</a></li>
+              <li><a class="active" href="company-add.html">Створити компанію</a></li>
+              <li><a href="company-manage.html">Управління компаніями</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Сторінки</a>
+            <ul>
+              <li><a href="page-about.html">Про нас</a></li>
+              <li><a href="page-contact.html">Зв'язок</a></li>
+              <li><a href="page-faq.html">FAQ</a></li>
+              <li><a href="page-pricing.html">Ціноутворення</a></li>
+              <li><a href="page-typography.html">Друкарня</a></li>
+              <li><a href="page-ui-elements.html">Елементи інтерфейсу користувача</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- END Navigation menu -->
+
+      </div>
+    </nav>
+    <!-- END Navigation bar -->
+
+    <form action="#">
+
+      <!-- Page header -->
+      <header class="page-header"
+          style="background-image: url(assets/images/sunrise-1756274_1920.jpg)">
+        <div class="container page-name">
+          <h1 class="text-center">Додати свою компанію</h1>
+          <p class="lead text-center">Створіть профіль для своєї компанії та розмістіть його в Інтернеті.</p>
+        </div>
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="row">
+                
+                <div class="col-xs-12 col-sm-4 col-lg-2">
+                  <div class="form-group">
+                    <input type="file" class="dropify" data-default-file="assets/images/logo-default.png">
+                    <span class="help-block">Логотип компанії</span>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-8 col-lg-10">
+                  <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="Назва компанії">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Заголовок (наприклад, Інтернет та комп'ютерне програмне забезпечення)">
+                  </div>
+
+                  <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Короткий опис"></textarea>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-xs-12">
+              <div class="row">
+
+                <div class="form-group col-xs-12 col-sm-6 col-md-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+                    <input type="text" class="form-control" placeholder="Місцезнаходження, напр. Melon Park, CA">
+                  </div>
+                </div>
+
+                <div class="form-group col-xs-12 col-sm-6 col-md-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-addon"><i class="fa fa-users"></i></span>
+                    <select class="form-control selectpicker">
+                      <option>0 - 9</option>
+                      <option selected>10 - 99</option>
+                      <option>100 - 999</option>
+                      <option>1,000 - 9,999</option>
+                      <option>10,000 - 99,999</option>
+                      <option>100,000 - 999,999</option>
+                    </select>
+                    <span class="input-group-addon">Роботодавець</span>
+                  </div>
+                </div>
+
+                <div class="form-group col-xs-12 col-sm-6 col-md-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-addon"><i class="fa fa-globe"></i></span>
+                    <input type="text" class="form-control" placeholder="Адреса веб-сайту">
+                  </div>
+                </div>
+
+                <div class="form-group col-xs-12 col-sm-6 col-md-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-addon"><i class="fa fa-birthday-cake"></i></span>
+                    <input type="text" class="form-control" placeholder="Засновано,наприклад, 2013 р">
+                      
+                  </div>
+                </div>
+
+                <div class="form-group col-xs-12 col-sm-6 col-md-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                    <input type="text" class="form-control" placeholder="Номер телефону">
+                  </div>
+                </div>
+
+                <div class="form-group col-xs-12 col-sm-6 col-md-4">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input type="text" class="form-control" placeholder="Адреса електронної пошти">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="button-group">
+            <div class="action-buttons">
+              <div class="upload-button">
+                <button class="btn btn-block btn-primary">Вибрати зображення обкладинки</button>
+                <input id="cover_img_file" type="file">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+      <!-- END Page header -->
+
+
+      <!-- Main container -->
+      <main>
+
+        <!-- Social media -->
+        <section  style="background-image: url(assets/images/scotland-1761292_1920.jpg)">
+          <div class="container">
+
+            <header class="section-header">
+              <span>Підключити</span>
+              <h2>Соціальні мережі</h2>
+            </header>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-ok"></i></span>
+                    <input type="text" class="form-control" placeholder="URL-адреса профілю">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-ok"></i></span>
+                    <input type="text" class="form-control" placeholder="URL-адреса профілю">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-ok"></i></span>
+                    <input type="text" class="form-control" placeholder="URL-адреса профілю">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-ok"></i></span>
+                    <input type="text" class="form-control" placeholder="URL-адреса профілю">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-ok"></i></span>
+                    <input type="text" class="form-control" placeholder="URL-адреса профілю">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-ok"></i></span>
+                    <input type="text" class="form-control" placeholder="URL-адреса профілю">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-ok"></i></span>
+                    <input type="text" class="form-control" placeholder="URL-адреса профілю">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-ok"></i></span>
+                    <input type="text" class="form-control" placeholder="URL-адреса профілю">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- Social media -->
+
+        <!-- Company detail -->
+        <section class=" bg-alt">
+          <div class="container">
+
+            <header class="section-header">
+              <span>Про компанію</span>
+              <h2>Детальна інформація про компанію</h2>
+              <p>Напишіть про свою компанію, культуру, переваги роботи там тощо.</p>
+            </header>
+            
+            <textarea class="summernote-editor"></textarea>
+
+          </div>
+        </section>
+        <!-- END Company detail -->
+
+
+        <!-- Submit -->
+        <section>
+          <div class="container">
+            <header class="section-header">
+              <span>Ви зробили?</span>
+              <h2>Подайте його</h2>
+              <p>Будь ласка, ще раз перегляньте свою інформацію та натисніть кнопку нижче, щоб перевести вашу компанію в Інтернет.</p>
+            </header>
+
+            <p class="text-center"><button class="btn btn-success btn-xl btn-round">Представити свою компанію</button></p>
+
+          </div>
+        </section>
+        <!-- END Submit -->
+
+
+      </main>
+      <!-- END Main container -->
+
+    </form>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+
+      <!-- Top section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Про нас</h6>
+            <p class="text-justify">Веб-сайт із працевлаштування - це веб-сайт, який стосується конкретно питань працевлаштування або кар’єри. Багато веб-сайтів з питань працевлаштування розроблені, щоб дозволити роботодавцям виставляти вимоги до вакансій на зайняту посаду, і вони широко відомі як робочі комісії. Інші сайти з працевлаштування пропонують огляди роботодавців, поради щодо кар’єри та пошуку роботи, а також описують різні посадові інструкції або роботодавців. Через веб-сайт про роботу потенційний працівник може знайти та заповнити заявку на роботу.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Компанія</h6>
+            <ul class="footer-links">
+              <li><a href="page-about.html">Про нас</a></li>
+              <li><a href="page-typography.html">Як це працює</a></li>
+              <li><a href="page-faq.html">Цент допомоги</a></li>
+              <li><a href="page-typography.html">Політика конфіденційності</a></li>
+              <li><a href="page-contact.html">Зв'яжіться з нами</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Актуальні професії</h6>
+            <ul class="footer-links">
+              <li><a href="job-list.html">Front-end розробник</a></li>
+              <li><a href="job-list.html">Розробник Android</a></li>
+              <li><a href="job-list.html">розробник iOS</a></li>
+              <li><a href="job-list.html">Full stack розробник </a></li>
+              <li><a href="job-list.html">Адміністратор проекту</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+      </div>
+      <!-- END Top section -->
+
+      <!-- Bottom section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Авторські права &copy;
+                <SCRIPT>
+                    var dNow = new Date();
+                    var sNow = dNow.getFullYear();
+                    document.write(sNow);
+                </SCRIPT>
+               Всі права захищено </p>
+              
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END Bottom section -->
+
+    </footer>
+    <!-- END Site footer -->
+
+
+    <!-- Back to top button -->
+    <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
+    <!-- END Back to top button -->
+
+    <!-- Scripts -->
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>

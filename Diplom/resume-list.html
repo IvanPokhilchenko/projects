@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+        <!-- Styles -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,800%7COpen+Sans:300,400,500,600,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+    <title>Work - Переглянути резюме</title>
+
+  
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/images/works.png">
+    <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="assets/images/works.png">
+  </head>
+
+  <body class="nav-on-header bg-alt">
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <div class="container">
+
+        <!-- Logo -->
+        <div class="pull-left">
+          <a class="navbar-toggle" href="#" data-toggle="offcanvas"><i class="ti-menu"></i></a>
+
+          <div class="logo-wrapper">
+            <a class="logo" href="index-1.html"><img src="assets/images/works.png" alt="logo"></a>
+            <a class="logo-alt" href="index-1.html"><img src="assets/images/works.png" alt="logo-alt"></a>
+          </div>
+
+        </div>
+        <!-- END Logo -->
+
+        <!-- User account -->
+        <div class="pull-right user-login">
+          <a class="btn btn-sm btn-primary" href="user-login.html">Увійти</a> або <a href="user-register.html">зареєструватися</a>
+        </div>
+        <!-- END User account -->
+
+        <!-- Navigation menu -->
+        <ul class="nav-menu">
+          <li>
+            <a href="index-1.html">Додому</a>
+            <ul>
+              <li><a href="index-1.html">Версія 1</a></li>
+              <li><a href="index-2.html">Версія 2</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Позиція</a>
+            <ul>
+              <li><a href="job-list-1.html">Перегляд вакансій - 1</a></li>
+              <li><a href="job-list-2.html">Перегляд вакансій - 2</a></li>
+              <li><a href="job-list-3.html">Перегляд вакансій - 3</a></li>
+              <li><a href="job-detail.html">Деталі роботи</a></li>
+              <li><a href="job-add.html">Опублікувати роботу</a></li>
+              <li><a href="job-manage.html">Управління робочими місцями</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="active" href="#">Резюме</a>
+            <ul>
+              <li><a class="active" href="resume-list.html">Переглянути резюме</a></li>
+              <li><a href="resume-detail.html">Деталі резюме</a></li>
+              <li><a href="resume-add.html">Створити резюме</a></li>
+              <li><a href="resume-manage.html">Керувати резюме</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Компанія</a>
+            <ul>
+              <li><a href="company-list.html">Переглянути компанії</a></li>
+              <li><a href="company-detail.html">Детальна інформація про компанії</a></li>
+              <li><a href="company-add.html">Створити компанію</a></li>
+              <li><a href="company-manage.html">Керувати компаніями</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Сторінки</a>
+            <ul>
+              <li><a href="page-about.html">Про нас</a></li>
+              <li><a href="page-contact.html">Зв'язок</a></li>
+              <li><a href="page-faq.html">FAQ</a></li>
+              <li><a href="page-pricing.html">Ціноутворення</a></li>
+              <li><a href="page-typography.html">Друкарня</a></li>
+              <li><a href="page-ui-elements.html">Елементи інтерфейсу користувача</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- END Navigation menu -->
+
+      </div>
+    </nav>
+    <!-- END Navigation bar -->
+
+
+    <!-- Page header -->
+    <header class="page-header bg-img" style="background-image: url(assets/images/sunrise-1756274_1920.jpg);">
+      <div class="container page-name">
+        <h1 class="text-center">Переглянути резюме</h1>
+        <p class="lead text-center">Використовуйте наступне поле пошуку, щоб знайти резюме, яке краще відповідає вашим посадам</p>
+      </div>
+
+      <div class="container">
+        <form action="#">
+
+          <div class="row">
+            <div class="form-group col-xs-12 col-sm-4">
+              <input type="text" class="form-control" placeholder="Ключове слово: ім'я, навички або теги">
+            </div>
+
+            <div class="form-group col-xs-12 col-sm-4">
+              <input type="text" class="form-control" placeholder="Місцезнаходження: місто, штат або поштовий індекс">
+            </div>
+
+            <div class="form-group col-xs-12 col-sm-4">
+              <select class="form-control selectpicker" multiple>
+                <option selected>Всі категорії</option>
+                <option>Розробник</option>
+                <option>Дизайнер</option>
+                <option>Обслуговування клієнтів</option>
+                <option>Фінанси</option>
+                <option>Охорона здоров'я</option>
+                <option>Продаж</option>
+                <option>Маркетинг</option>
+                <option>Інформаційні технології</option>
+                <option>Інші</option>
+              </select>
+            </div>
+
+
+            <div class="form-group col-xs-12 col-sm-4">
+              <h6>Погодинна ставка</h6>
+              <div class="checkall-group">
+                <div class="checkbox">
+                  <input type="checkbox" id="rate1" name="rate" checked>
+                  <label for="rate1">Усі ставки</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" id="rate2" name="rate">
+                  <label for="rate2">$0 - $50 <small>(364)</small></label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" id="rate3" name="rate">
+                  <label for="rate3">$50 - $100 <small>(684)</small></label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" id="rate4" name="rate">
+                  <label for="rate4">$100 - $200 <small>(195)</small></label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" id="rate5" name="rate">
+                  <label for="rate5">$200+ <small>(39)</small></label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="form-group col-xs-12 col-sm-4">
+              <h6>Вчений ступінь</h6>
+              <div class="checkall-group">
+                <div class="checkbox">
+                  <input type="checkbox" id="degree1" name="degree" checked>
+                  <label for="degree1">Всі ступені</label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" id="degree2" name="degree">
+                  <label for="degree2">Доцент <small>(216)</small></label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" id="degree3" name="degree">
+                  <label for="degree3">Диплом бакалавра <small>(569)</small></label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" id="degree4" name="degree">
+                  <label for="degree4">Диплом магістра <small>(439)</small></label>
+                </div>
+
+                <div class="checkbox">
+                  <input type="checkbox" id="degree5" name="degree">
+                  <label for="degree5">Докторська ступінь <small>(84)</small></label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="form-group col-xs-12 col-sm-4">
+              <h6>Сортувати за</h6>
+              <div class="radio">
+                <input type="radio" name="sortby" id="sortby1" value="option1" checked>
+                <label for="sortby1">Актуальність</label>
+              </div>
+
+              <div class="radio">
+                <input type="radio" name="sortby" id="sortby2" value="option2">
+                <label for="sortby2">Спочатку найвищий показник</label>
+              </div>
+
+              <div class="radio">
+                <input type="radio" name="sortby" id="sortby3" value="option3">
+                <label for="sortby3">Спочатку найнижча ставка</label>
+              </div>
+
+              <div class="radio">
+                <input type="radio" name="sortby" id="sortby4" value="option4">
+                <label for="sortby4">Спочатку найвищий ступінь</label>
+              </div>
+
+              <div class="radio">
+                <input type="radio" name="sortby" id="sortby5" value="option5">
+                <label for="sortby5">Спочатку найнижчий ступінь</label>
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div class="button-group">
+            <div class="action-buttons">
+              <button class="btn btn-primary">Застосувати фільтр</button>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+
+    </header>
+    <!-- END Page header -->
+
+
+    <!-- Main container -->
+    <main>
+      <section class="no-padding-top bg-alt"  style="background-image: url(assets/images/water-1330252_1920.jpg)">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-xs-12">
+              <br>
+              <h5>Ми виявили <strong>357</strong> вакансій</h5>
+            </div>
+            
+            <!-- Resume detail -->
+            <div class="col-xs-12">
+              <a class="item-block" href="resume-detail.html">
+                <header>
+                  <img class="resume-avatar" src="assets/images/avatar.jpg" alt="">
+                  <div class="hgroup">
+                    <h4>Джон Доу</h4>
+                    <h5>Front-end розробник</h5>
+                  </div>
+                </header>
+
+                <div class="item-body">
+                  <p>20+ років досвіду роботи над front-end розробкою для великих компаній. Я розробляю добре розроблені, доступні та стандартизовані веб-сайти та додатки. Високоефективний комунікатор та керівник команди з перевіреним досвідом якісної роботи вчасно та в рамках бюджету, працюючи віддаленим співробітником Досвід та успіх як в агентстві, так і у великих корпоративних середовищах.</p>
+
+                  <div class="tag-list">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Bootstrap</span>
+                    <span>Wordpress</span>
+                  </div>
+                </div>
+
+                <footer>
+                  <ul class="details cols-3">
+                    <li>
+                      <i class="fa fa-map-marker"></i>
+                      <span>Menlo Park, CA</span>
+                    </li>
+
+                    <li>
+                      <i class="fa fa-money"></i>
+                      <span>$55 / год</span>
+                    </li>
+
+                    <li>
+                      <i class="fa fa-certificate"></i>
+                      <span>Магістр комп'ютерних наук</span>
+                    </li>
+                  </ul>
+                </footer>
+              </a>
+            </div>
+            <!-- END Resume detail -->
+          </div>
+
+          <div class="row">
+            <!-- Resume detail -->
+            <div class="col-sm-12 col-md-6">
+              <a class="item-block" href="resume-detail.html">
+                <header>
+                  <img class="resume-avatar" src="assets/images/avatar-1.jpg" alt="">
+                  <div class="hgroup">
+                    <h4>Бакш Султана</h4>
+                    <h5>Розробник Java</h5>
+                  </div>
+                </header>
+
+                <div class="item-body">
+                  <p>Я розробляю добре розроблені, доступні та стандартизовані веб-сайти та додатки. Високоефективний комунікатор та керівник команди з перевіреним досвідом якісної роботи вчасно та в рамках бюджету, працюючи віддаленим співробітником</p>
+
+                  <div class="tag-list">
+                    <span>J2EE</span>
+                    <span>J2SE</span>
+                    <span>Android</span>
+                  </div>
+                </div>
+
+                <footer>
+                  <ul class="details cols-2">
+                    <li>
+                      <i class="fa fa-map-marker"></i>
+                      <span>Fairfield, IA</span>
+                    </li>
+
+                    <li>
+                      <i class="fa fa-money"></i>
+                      <span>$60 / год</span>
+                    </li>
+                  </ul>
+                </footer>
+              </a>
+            </div>
+            <!-- END Resume detail -->
+
+
+            <!-- Resume detail -->
+            <div class="col-sm-12 col-md-6">
+              <a class="item-block" href="resume-detail.html">
+                <header>
+                  <img class="resume-avatar" src="assets/images/avatar-2.jpg" alt="">
+                  <div class="hgroup">
+                    <h4> Кріс Ернандезіян</h4>
+                    <h5>.Net розробник</h5>
+                  </div>
+                </header>
+
+                <div class="item-body">
+                  <p> Я розробляю добре розроблені, доступні та стандартизовані веб-сайти та додатки. Високоефективний комунікатор та керівник команди з перевіреним досвідом якісної роботи вчасно та в рамках бюджету, працюючи віддаленим співробітником</p>
+
+                  <div class="tag-list">
+                    <span>VB.Net</span>
+                    <span>C#</span>
+                    <span>WPF</span>
+                    <span>ASP.Net</span>
+                    <span>MVC.Net</span>
+                  </div>
+                </div>
+
+                <footer>
+                  <ul class="details cols-2">
+                    <li>
+                      <i class="fa fa-map-marker"></i>
+                      <span>Seattle, WA</span>
+                    </li>
+
+                    <li>
+                      <i class="fa fa-money"></i>
+                      <span>$50 / год</span>
+                    </li>
+                  </ul>
+                </footer>
+              </a>
+            </div>
+            <!-- END Resume detail -->
+          </div>
+
+          <div class="row">
+            <!-- Resume detail -->
+            <div class="col-sm-12 col-md-6">
+              <a class="item-block" href="resume-detail.html">
+                <header>
+                  <img class="resume-avatar" src="assets/images/avatar-3.jpg" alt="">
+                  <div class="hgroup">
+                    <h4>Мері Амірі</h4>
+                    <h5>Гарантія якості</h5>
+                  </div>
+                </header>
+
+                <div class="item-body">
+                  <p>Я розробляю добре розроблені, доступні та стандартизовані веб-сайти та додатки. Високоефективний комунікатор та керівник команди з перевіреним досвідом якісної роботи вчасно та в рамках бюджету, працюючи віддаленим співробітником</p>
+
+                  <div class="tag-list">
+                    <span>Testcase</span>
+                    <span>Unit test</span>
+                    <span>jUnit</span>
+                    <span>Git</span>
+                  </div>
+                </div>
+
+                <footer>
+                  <ul class="details cols-2">
+                    <li>
+                      <i class="fa fa-map-marker"></i>
+                      <span>Fremont, CA</span>
+                    </li>
+
+                    <li>
+                      <i class="fa fa-money"></i>
+                      <span>$70 / год</span>
+                    </li>
+                  </ul>
+                </footer>
+              </a>
+            </div>
+            <!-- END Resume detail -->
+
+
+
+            <!-- Resume detail -->
+            <div class="col-sm-12 col-md-6">
+              <a class="item-block" href="resume-detail.html">
+                <header>
+                  <img class="resume-avatar" src="assets/images/avatar-4.jpg" alt="">
+                  <div class="hgroup">
+                    <h4>Сара Луїсгарден</h4>
+                    <h5>UI/UX розробник</h5>
+                  </div>
+                </header>
+
+                <div class="item-body">
+                  <p>Я розробляю добре розроблені, доступні та стандартизовані веб-сайти та додатки. Високоефективний комунікатор та керівник команди з перевіреним досвідом якісної роботи вчасно та в рамках бюджету, працюючи віддаленим співробітником</p>
+
+                  <div class="tag-list">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Bootstrap</span>
+                    <span>Photoshop</span>
+                  </div>
+                </div>
+
+                <footer>
+                  <ul class="details cols-2">
+                    <li>
+                      <i class="fa fa-map-marker"></i>
+                      <span>Columbus, OH</span>
+                    </li>
+
+                    <li>
+                      <i class="fa fa-money"></i>
+                      <span>$45 / год</span>
+                    </li>
+                  </ul>
+                </footer>
+              </a>
+            </div>
+            <!-- END Resume detail -->
+          </div>
+
+
+          <!-- Page navigation -->
+          <nav class="text-center">
+            <ul class="pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <i class="ti-angle-left"></i>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li class="active"><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <i class="ti-angle-right"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- END Page navigation -->
+
+
+        </div>
+      </section>
+    </main>
+    <!-- END Main container -->
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+
+      <!-- Top section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Про нас</h6>
+            <p class="text-justify">Веб-сайт із працевлаштування - це веб-сайт, який стосується конкретно питань працевлаштування або кар’єри. Багато веб-сайтів з питань працевлаштування розроблені, щоб дозволити роботодавцям виставляти вимоги до вакансій на зайняту посаду, і вони широко відомі як робочі комісії. Інші сайти з працевлаштування пропонують огляди роботодавців, поради щодо кар’єри та пошуку роботи, а також описують різні посадові інструкції або роботодавців. Через веб-сайт про роботу потенційний працівник може знайти та заповнити заявку на роботу.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Компанія</h6>
+            <ul class="footer-links">
+              <li><a href="page-about.html">Про нас</a></li>
+              <li><a href="page-typography.html">Як це працює</a></li>
+              <li><a href="page-faq.html">Цент допомоги</a></li>
+              <li><a href="page-typography.html">Політика конфіденційності</a></li>
+              <li><a href="page-contact.html">Зв'яжіться з нами</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Актуальні професії</h6>
+            <ul class="footer-links">
+              <li><a href="job-list.html">Front-end розробник</a></li>
+              <li><a href="job-list.html">Розробник Android</a></li>
+              <li><a href="job-list.html">Розробник iOS</a></li>
+              <li><a href="job-list.html">Full stack розробник</a></li>
+              <li><a href="job-list.html">Адміністратор проекту</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+      </div>
+      <!-- END Top section -->
+
+      <!-- Bottom section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+           <p class="copyright-text">Авторські права &copy;
+                <SCRIPT>
+                    var dNow = new Date();
+                    var sNow = dNow.getFullYear();
+                    document.write(sNow);
+                </SCRIPT>
+               Всі права захищено </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END Bottom section -->
+
+    </footer>
+    <!-- END Site footer -->
+
+
+    <!-- Back to top button -->
+    <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
+    <!-- END Back to top button -->
+
+    <!-- Scripts -->
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
